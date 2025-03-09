@@ -25,7 +25,7 @@ function Signin(){
         e.preventDefault()
         const user={email,password}
         console.log(user)
-        var response=await fetch('https://fitness-meter.onrender.com//userlog',{
+        var response=await fetch('https://fitness-meter.onrender.com/userlog',{
             method:'POST',
             body:JSON.stringify(user),
             headers:{
